@@ -1,12 +1,12 @@
 =============
 Tempera WordPress Theme
-Copyright 2013-2022 Cryout Creations
+Copyright 2013-2025 Cryout Creations
 
 Author: Cryout Creations
 Requires at least: 4.2
-Tested up to: 6.4
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.8.2
+Stable tag: 1.8.3
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://www.cryoutcreations.eu/donate/
@@ -110,9 +110,15 @@ For current translation contributors, see https://translate.wordpress.org/projec
 
 == Changelog ==
 
+= 1.8.3 =
+* Fixed XSS vulnerability allowing the output of unsanitized user names set by rogue editors/contributors - reported by stealthcopter on patchstack.com
+* Fixed PHP 8.2+ deprecation notice about using ${var}
+* Added new social icons: Bluesky, Mastodon and X
+* Removed obsolete social icons: GooglePlus, Steam-old, Twitter-old, Youtube-old
+
 = 1.8.2 =
 * Improved alignment of captioned block images
-* Improved handling of posts without featured images when generating the presentation page posts-based slider
+* Improved handling of posts without featured images when generating the presentation page posts-based columns
 * Improved breadcrumbs section detection to fix invalid breadcrumbs on non-home blog page
 * (Hopefully) fixed undefined index WP_Widget_Recent_Comments in theme-comments.php with WP CLI
 

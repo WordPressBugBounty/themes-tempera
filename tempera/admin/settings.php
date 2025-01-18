@@ -611,7 +611,7 @@ function  cryout_setting_fonttitle_fn() {
 function  cryout_setting_fontside_fn() {
 	global $temperas;
 	global $tempera_fonts;
-	for ($i=14;$i<31;$i+=2): $sizes[] = "${i}px"; endfor;
+	for ($i=14;$i<31;$i+=2): $sizes[] = "{$i}px"; endfor;
 	cryout_proto_font(
 		$tempera_fonts,
 		$sizes,
@@ -630,7 +630,7 @@ function  cryout_setting_fontside_fn() {
 function  cryout_setting_sitetitlefont_fn() {
 	global $temperas;
 	global $tempera_fonts;
-	for ($i=30;$i<51;$i+=2): $sizes[] = "${i}px"; endfor;
+	for ($i=30;$i<51;$i+=2): $sizes[] = "{$i}px"; endfor;
 	cryout_proto_font(
 		$tempera_fonts,
 		$sizes,
