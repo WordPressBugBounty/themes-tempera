@@ -1,131 +1,88 @@
 @font-face {
     font-family: 'Droid Sans';
-    src: url('DroidSans-webfont.eot');
-    src: url('DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
-         url('DroidSans-webfont.woff') format('woff'),
-         url('DroidSans-webfont.ttf') format('truetype'),
-         url('DroidSans-webfont.svg#droid_sansregular') format('svg');
+    src: url('DroidSans-webfont.woff') format('woff'),
+         url('DroidSans-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Ubuntu Light';
-    src: url('ubuntu-light-webfont.eot');
-    src: url('ubuntu-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ubuntu-light-webfont.woff') format('woff'),
-         url('ubuntu-light-webfont.ttf') format('truetype'),
-         url('ubuntu-light-webfont.svg#ubuntulight') format('svg');
+    src: url('ubuntu-light-webfont.woff') format('woff'),
+         url('ubuntu-light-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('ubuntu-regular-webfont.eot');
-    src: url('ubuntu-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('ubuntu-regular-webfont.woff') format('woff'),
-         url('ubuntu-regular-webfont.ttf') format('truetype'),
-         url('ubuntu-regular-webfont.svg#ubunturegular') format('svg');
+    src: url('ubuntu-regular-webfont.woff') format('woff'),
+         url('ubuntu-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Regular-webfont.eot');
-    src: url('OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Regular-webfont.woff') format('woff'),
-         url('OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+    src: url('OpenSans-Regular-webfont.woff') format('woff'),
+         url('OpenSans-Regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Open Sans Light';
-    src: url('OpenSans-Light-webfont.eot');
-    src: url('OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('OpenSans-Light-webfont.woff') format('woff'),
-         url('OpenSans-Light-webfont.ttf') format('truetype'),
-         url('OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    src: url('OpenSans-Light-webfont.woff') format('woff'),
+         url('OpenSans-Light-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('BebasNeue-webfont.eot');
-    src: url('BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
-         url('BebasNeue-webfont.woff') format('woff'),
-         url('BebasNeue-webfont.ttf') format('truetype'),
-         url('BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    src: url('BebasNeue-webfont.woff') format('woff'),
+         url('BebasNeue-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Yanone Kaffeesatz Regular';
-    src: url('yanonekaffeesatz-regular-webfont.eot');
-    src: url('yanonekaffeesatz-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('yanonekaffeesatz-regular-webfont.woff') format('woff'),
-         url('yanonekaffeesatz-regular-webfont.ttf') format('truetype'),
-         url('yanonekaffeesatz-regular-webfont.svg#yanone_kaffeesatzregular') format('svg');
+    src: url('yanonekaffeesatz-regular-webfont.woff') format('woff'),
+         url('yanonekaffeesatz-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Yanone Kaffeesatz Light';
-    src: url('yanonekaffeesatz-light-webfont.eot');
-    src: url('yanonekaffeesatz-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('yanonekaffeesatz-light-webfont.woff') format('woff'),
-         url('yanonekaffeesatz-light-webfont.ttf') format('truetype'),
-         url('yanonekaffeesatz-light-webfont.svg#yanone_kaffeesatzlight') format('svg');
+    src: url('yanonekaffeesatz-light-webfont.woff') format('woff'),
+         url('yanonekaffeesatz-light-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Oswald Light';
-    src: url('Oswald-Light-webfont.eot');
-    src: url('Oswald-Light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Oswald-Light-webfont.woff') format('woff'),
-         url('Oswald-Light-webfont.ttf') format('truetype'),
-         url('Oswald-Light-webfont.svg#OswaldLight') format('svg');
+    src: url('Oswald-Light-webfont.woff') format('woff'),
+         url('Oswald-Light-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('Oswald-Regular-webfont.eot');
-    src: url('Oswald-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Oswald-Regular-webfont.woff') format('woff'),
-         url('Oswald-Regular-webfont.ttf') format('truetype'),
-         url('Oswald-Regular-webfont.svg#OswaldBook') format('svg');
+    src: url('Oswald-Regular-webfont.woff') format('woff'),
+         url('Oswald-Regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* ICON FONT - ELUSIVE */
 @font-face {
   font-family: 'elusive';
-  src: url('elusive.eot');
-  src: url('elusive.eot?#iefix') format('embedded-opentype'),
-       url('elusive.woff') format('woff'),
-       url('elusive.ttf') format('truetype'),
-       url('elusive.svg?#elusive') format('svg');
+  src: url('elusive.woff') format('woff'),
+       url('elusive.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -255,3 +212,5 @@
 .crycon-edit-alt:before { content: '\e861'; }
 .crycon-edit-2:before { content: '\e862'; }
 .crycon-block:before { content: '\e863'; }
+
+/* FIN */

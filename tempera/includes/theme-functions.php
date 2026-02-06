@@ -411,8 +411,8 @@ add_filter( 'wp_link_pages_args', 'tempera_nextpage_links' );
  */
 function tempera_site_info() { ?>
 	<span style="display:block;float:right;text-align:right;padding:0 20px 5px;font-size:.9em;">
-	<?php _e('Powered by','tempera')?> <a target="_blank" href="<?php echo 'http://www.cryoutcreations.eu';?>" title="<?php echo 'Tempera Theme by '.
-			'Cryout Creations';?>"><?php echo 'Tempera' ?></a> &amp; <a target="_blank" href="<?php echo 'http://wordpress.org/'; ?>"
+	<?php _e('Powered by','tempera')?> <a target="_blank" href="<?php echo '//www.cryoutcreations.eu';?>" title="<?php echo 'Tempera Theme by '.
+			'Cryout Creations';?>"><?php echo 'Tempera' ?></a> &amp; <a target="_blank" href="<?php echo '//wordpress.org/'; ?>"
 			title="<?php _e('Semantic Personal Publishing Platform', 'tempera'); ?>"> <?php printf(' %s.', 'WordPress' ); ?>
 		</a>
 	</span><!-- #site-info -->

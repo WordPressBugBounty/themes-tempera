@@ -1,12 +1,12 @@
 =============
 Tempera WordPress Theme
-Copyright 2013-2025 Cryout Creations
+Copyright 2013-2026 Cryout Creations
 
 Author: Cryout Creations
 Requires at least: 4.2
-Tested up to: 6.7
+Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 1.8.3
+Stable tag: 1.8.4
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://www.cryoutcreations.eu/donate/
@@ -109,6 +109,14 @@ For current translation contributors, see https://translate.wordpress.org/projec
 
 
 == Changelog ==
+
+= 1.8.4 =
+* Fixed '_load_textdomain_just_in_time() was called incorrectly' notice introduced by WordPress 6.7
+* Fixed missing list bullets in blocks
+* Fixed broken theme panel content in customizer
+* Changed footer links to be protocol agnostic and avoid warnings from automated quality check tools
+* Removed legacy eot and svg bundled font formats to reduce theme size
+* Bumped compatibility with WordPress 6.9
 
 = 1.8.3 =
 * Fixed XSS vulnerability allowing the output of unsanitized user names set by rogue editors/contributors - reported by stealthcopter on patchstack.com
